@@ -1,0 +1,30 @@
+[
+  {
+    "attractions" :{
+      "name" : "test",
+      "yearsAllowedFrom" : 3
+    },
+    "manager" :{
+      "firstName": "Test",
+      "lastName": "TestLastNAME",
+      "salary": 12
+    },
+    "name" : "test",
+    "city" : "test"
+
+  },
+  {
+    "attractions" :{
+      "name" : "test",
+      "yearsAllowedFrom" : 3
+    },
+    "manager" :{
+      "firstName": "Test",
+      "lastName": "TestLastNAME",
+      "salary": 12
+    },
+    "name" : "test",
+    "city" : "test"
+
+  }
+]
