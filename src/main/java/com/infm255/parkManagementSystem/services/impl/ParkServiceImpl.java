@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -18,6 +19,11 @@ public class ParkServiceImpl implements ParkService {
     @Override
     public List<Park> getAllParks() {
         return parkRepository.findAll();
+    }
+
+    @Override
+    public Optional<Park> getParkInfoById(Long id) {
+        return parkRepository.findById(id);
     }
 
     @Override

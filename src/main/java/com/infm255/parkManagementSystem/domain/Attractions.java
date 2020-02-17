@@ -26,4 +26,5 @@ public class Attractions implements Serializable {
     private int yearsAllowedFrom;
 
 
+
 }
